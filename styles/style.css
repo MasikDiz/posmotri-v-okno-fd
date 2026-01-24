@@ -164,7 +164,7 @@ ol {
   min-inline-size: 225px;
   min-block-size: 27px;
   border: none;
-  border-block-start: 1px solid #fff;
+  border-block-start: 1px solid currentColor;
   border-block-end: 1px solid #fff;
   color: #fff;
   font-family: inherit;
@@ -209,6 +209,10 @@ ol {
 
 .content__accent {
   color: #545050;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__card-link {
@@ -275,7 +279,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
